@@ -1,33 +1,29 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# The following keys must be escaped otherwise they will not be retrieved by
-# the default I18n backend:
-#
-# true, false, on, off, yes, no
-#
-# Instead, surround them with single quotes.
-#
-# en:
-#   'true': 'foo'
-#
-# To learn more, please read the Rails Internationalization guide
-# available at http://guides.rubyonrails.org/i18n.html.
-
 en:
-  hello: "Hello world"
+  static_pages:
+    home:
+      name: "Home"
+      intro1: "This is the home page for the"
+      intro2: "Ruby on Rails Tutorial"
+      intro3: "sample application."
+    help:
+      name: "Help"
+      intro1: "Get help on the Ruby on Rails Tutorial at thes"
+      intro2: "Rails Tutorial help page"
+      sample1: "To get help on this sample app, see the"
+      sample2: "Ruby on Rails Tutorial book"
+    about:
+      name: "About"
+      intro1: "The Ruby on Rails Tutorial"
+      intro2: "is a book and "
+      intro3: "screencast series"
+      intro4: "to teach web development with"
+      sample1: "Ruby on Rails"
+      sample2: "This is the sample application for the tutorial."
+    contact:
+      name: "Contact"
+      intro: "Contact the Ruby on Rails Tutorial about the sample app at the contact page"
+  layouts:
+    application:
+      title: "Ruby on Rails Tutorial Sample App"
+      en: "English"
+      vi: "Vietnamese"

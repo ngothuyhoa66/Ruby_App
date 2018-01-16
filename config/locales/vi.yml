@@ -1,0 +1,29 @@
+vi:
+  static_pages:
+    home:
+      name: "Trang Chủ"
+      intro1: "Đây là trang chủ của"
+      intro2: "Hướng dẫn về Ruby on Rails"
+      intro3: "ứng dụng mẫu."
+    help:
+      name: "Trợ giúp"
+      intro1: "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại"
+      intro2: "trang trợ giúp Hướng dẫn của Rails"
+      sample1: "Để được trợ giúp về ứng dụng mẫu này, hãy xem"
+      sample2: "sách Hướng dẫn về Ruby on Rails"
+    about:
+      name: "Về"
+      intro1: "Hướng dẫn về Ruby on Rails"
+      intro2: "là một cuốn sách và"
+      intro3: "loạt screencast"
+      intro4: "để dạy phát triển web với"
+      sample1: "Ruby on Rails"
+      sample2: "Đây là ứng dụng mẫu cho hướng dẫn."
+    contact:
+      name: "Liên hệ"
+      intro: "Liên hệ với Hướng dẫn của Ruby on Rails về ứng dụng mẫu tại trang liên hệ"
+  layouts:
+    application:
+      title: "Hướng dẫn sử dụng Ruby on Rails"
+      en: "Tiếng anh"
+      vi: "Tiếng việt"
